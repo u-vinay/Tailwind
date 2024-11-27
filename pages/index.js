@@ -273,19 +273,11 @@ export default function Home() {
 </main>
     <footer id="footer" class="bg-teal-700 text-white text-xl">
       <section class="max-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
-        <address>
-          Email:
-          <a href="mailto:vinayudaya0509@gmail.com"> vinayudaya0509@gmail.com</a><br />
-        </address>
         <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
           <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
           <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
           <a href="#contact" class="hover:opacity-90">Contact Us</a>
         </nav>
-        <div class="flex flex-col sm:gap-2">
-          <p class="text-right">Copyright &copy; <span id="year">2023</span></p>
-          <p class="text-right">All Rights Reserved</p>
-        </div>
       </section>
         </footer>
       </body>
